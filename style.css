@@ -352,7 +352,7 @@
     margin-top: 10px;
 }
 
-.icon, .up_arrow{
+.icon{
     width:50px;
     height:50px;
     border-radius: 50%;
@@ -403,6 +403,56 @@
     .banner_heading p {
         font-size: 14px;
     }
+
+    .banner_heading button{
+        height: 40px;
+        width: 120px;
+        background-color: #cfffef;
+        border: 2px solid black;
+        border-radius: 6rem;
+        margin: 10px 10px;
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .third_heading a {
+        text-decoration: none;
+        font-size: 18px;
+        color: #368600;
+    }
+    
+    
+    .third_heading h2 {
+        font-size: 25px;
+        color: #000000;
+    }
+
+    .div_text {
+        font-size: 15px;
+    }
+
+    .fourth_div_sub1 a{
+        font-size: 25px;
+    }
+    
+    
+    
+    .fourth_div_sub1 p{
+        font-size: 15px;
+    }
+
+    .fourth_div_sub2_img img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .fourth_div_sub2 {
+        height: 210px;
+        width: 100%;
+        padding: 10px 20px;
+        position: relative;
+    }
     
   
     .third_div, .fifth_div {
@@ -414,7 +464,44 @@
     .fifth_div_sub1, .fifth_div_sub2, .fifth_div_sub3, .fifth_div_sub4 {
         width: 90%;
         height: auto;
+        
     }
+
+    .fifth_heading h1{
+        font-size: 20px;
+    }
+
+    .fifth_heading h2{
+        font-size: 15px;
+    }
+
+    .fifth_div_sub1 img, .fifth_div_sub2 img, .fifth_div_sub3 img, .fifth_div_sub4 img{
+         height: 280px;
+         width: 210px;
+    }
+
+    .fifth_div_text a{
+        font-size: 15px;
+    }
+    
+    /* .fourth_div_text a {
+        text-decoration: none;
+        color: #ffffff;
+    } */
+
+    .icon i{
+        font-size: 20px;
+     }
+
+     .contact_heading h1{
+        font-size: 20px;
+     }
+
+     .contact_heading p{
+        font-size: 15px;
+     }
+
+
 }
 
 /* Small devices - landscape mode */
@@ -435,7 +522,7 @@
 }
 
 /* Tablet - portrait mode */
-@media (min-width: 600px) and (max-width: 959px) {
+/* @media (min-width: 600px) and (max-width: 959px) {
     .banner_heading h1 {
         font-size: 40px;
     }
@@ -447,10 +534,10 @@
         width: 45%;
         height: 300px;
     }
-}
+} */
 
 /* Tablet - landscape mode */
-@media (min-width: 900px) and (max-width: 1199px) {
+/* @media (min-width: 900px) and (max-width: 1199px) {
     .banner_heading h1 {
         font-size: 45px;
     }
@@ -458,7 +545,7 @@
     .fifth_div_sub1, .fifth_div_sub2, .fifth_div_sub3, .fifth_div_sub4 {
         width: 30%;
     }
-}
+} */
 
 /* Normal desktop */
 @media (min-width: 1200px) {
